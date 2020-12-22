@@ -1,4 +1,4 @@
-# nba-predictions
+# nba-prediction
 
 A project to predict the outcome of NBA matches using Machine Learning.
 
