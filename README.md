@@ -8,9 +8,9 @@ Note that the columns with column names as Team1COLNAME and Team2COLNAME corresp
 
 | Column Name |                         Description                         |
 |:-----------:|:-----------------------------------------------------------:|
-|     AWAY    | The Away team, this team is not playing on their home court |
+|     AWAY    |                       The Away Team                         |
 |     Pts     |            The number of points scored by a team            |
-|     HOME    |   The Home team, this team is playing on their home court   |
+|     HOME    |                       The Home team                         |
 |     RANK    |              The month-wise ranking of the team             |
 |      GP     |                    Number of Games Played                   |
 |      W      |                        Number of Wins                       |
@@ -31,19 +31,3 @@ Note that the columns with column names as Team1COLNAME and Team2COLNAME corresp
 |     PACE    |                             Pace                            |
 |     PIE     |                    Player Impact Estimate                   |
 
-# Directory Description
-
-### [/datasets](/datasets/)
-Contains all the raw and preprocessed datasets.
-
-### [/webdriver](/webdriver/)
-Contains the Chrome webdriver used for data scraping.
-
-### [data_scraping.py](/data_scraping.py)
-Python File to scrape the relevant data from the internet.
-
-### [data_preprocessing.ipynb](/data_preprocessing.ipynb)
-Jupyter Notebook used for data preprocessing.
-
-### [data_modelling.ipynb](/data_modelling.ipynb)
-Jupyter Notebook used to fit simple Machine Learning models to the data.
