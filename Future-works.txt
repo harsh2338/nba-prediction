@@ -1,6 +1,8 @@
-NBA predictions using team's stats done
-Now moving toward some more stuff-
-1) Using Synergy - http://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26645648.pdf
-2) Predicting Scores - http://cs229.stanford.edu/proj2017/final-reports/5231214.pdf
-3) Making a fantasy lineup - https://github.com/KengoA/fantasy-basketball/blob/master/report.pdf
-4) 
+# NBA predictions using team's stats done
+
+# Now moving toward some more stuff-
+  1) Using Synergy - http://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26645648.pdf
+  2) Predicting Scores - http://cs229.stanford.edu/proj2017/final-reports/5231214.pdf
+  3) Making a fantasy lineup - https://github.com/KengoA/fantasy-basketball/blob/master/report.pdf
+  4) Predicting All stars using neural networks - https://dl.acm.org/doi/10.1109/ISCC-C.2013.92 
+  5)
