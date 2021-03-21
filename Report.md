@@ -10,7 +10,7 @@
 
 ... Nishant
 
-# Synergy
+### Synergy
 
 In Basketball, player-player chemistry plays a big role in predicting the output of the games. Here, the motivation of this model is to understand the role that player-player chemistry (synergy) may play in predicting game outcomes and providing quantitative predictions of chemistry between players. 
 
@@ -19,9 +19,13 @@ The inputs for our algorithm will be the identity of the players on each team fo
 model to output a prediction on which team will win the match. We also provide a comparison using a multi-layer perceptron neural net.
 
 **Linear Model**
+
 ![alt_text](images/image1.png)
+
 **Quadratic Model**
+
 ![alt_text](images/image2.png)
+
 We’ll also take a look at the learned parameters of the quadratic model which will give us quantitative parameters to compare the chemistry of the players. 
 
 The feature vector for every team would have a length of total number of players. It would have 1s in positions corresponding to its players and 0s elsewhere. Using this as input to our quadratic model we get two matrices **S** and **A**. 
@@ -37,10 +41,6 @@ These are very important parameters. Using these we can calculate how well would
 This work has a lot of potential as it can effectively predict which players should be paired together. Also, it can predict successful transfers and trades. But there are some drawbacks such as we have to include age as a factor. Also it doesn’t account for new players. Nevertheless, this has a lot of scope and can be explored further.
 
 ### Generating Line ups
-
-...
-
-Light Sanjkeet, Harsh
 
 **LightGBM**
 
@@ -58,7 +58,7 @@ Since it is based on decision tree algorithms, it splits the tree leaf wise with
 
 ![LightGBM vs Boosting](https://github.com/harsh2338/nba-prediction/blob/main/images/tree_growth.png)
 
-# Bayesian Opt
+### Bayesian Opt
 
 **Bayesian Optimization** is a probabilistic model based approach for finding the minimum of any function that returns a real-value metric. It is very effective with real-world applications in high-dimensional parameter-tuning for complex machine learning algorithms. Bayesian optimization utilizes the Bayesian technique of setting a prior over the objective function and combining it with evidence to get a posterior function.
 
