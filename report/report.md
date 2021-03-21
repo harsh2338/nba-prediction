@@ -46,11 +46,11 @@ model to output a prediction on which team will win the match. We also provide a
 
 **Linear Model**
 
-![alt_text](images/linear_model.png)
+![alt_text](/assets/report_images/linear_model.png)
 
 **Quadratic Model**
 
-![alt_text](images/quad_model.png)
+![alt_text](/assets/report_images/quad_model.png)
 
 We’ll also take a look at the learned parameters of the quadratic model which will give us quantitative parameters to compare the chemistry of the players. 
 
@@ -140,7 +140,7 @@ Since it is based on decision tree algorithms, it splits the tree leaf wise with
 
 **Bayesian Optimization** is a probabilistic model based approach for finding the minimum of any function that returns a real-value metric. It is very effective with real-world applications in high-dimensional parameter-tuning for complex machine learning algorithms. Bayesian optimization utilizes the Bayesian technique of setting a prior over the objective function and combining it with evidence to get a posterior function.
 
-![alt_text](images/image3.png)
+![alt_text](/assets/report_images/bayesian_probability.png)
 
 Hyperparameter tuning by Bayesian Optimization of machine learning models is more efficient than Grid Search and Random Search. Bayesian Optimization has better overall performance on the test data and takes less time for optimization. 
 
